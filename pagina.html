@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechEdu Solutions - Más Información</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="pagina.css">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 0;
+        }
+        .card-custom {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .card-custom:hover {
+            transform: translateY(-5px);
+        }
+        .section-bg {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            padding: 40px 0;
+        }
+        .section-bg-alt {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            padding: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> Tecno-Educa </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#conceptos">Conceptos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recursos">Recursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#consejos">Consejos</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-light" onclick="window.location.href='index.html'">Volver al Inicio</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4">Aprende Programación con Tecno-Educa</h1>
+            <p class="lead">Una guía sencilla para comenzar con código y dominar los fundamentos de la programación.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="conceptos" class="section-bg">
+            <div class="container">
+                <h2 class="text-center mb-4 text-white">Conceptos Básicos</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card card-custom h-100">
+                            <img src="curzo.jpg" class="card-img-top" alt="Variables">
+                            <div class="card-body">
+                                <h5 class="card-title">Variables</h5>
+                                <p class="card-text">Almacenan valores como texto, números o booleanos. Son el pilar de cualquier programa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card card-custom h-100">
+                            <img src="fundamental.jpg" class="card-img-top" alt="Condicionales">
+                            <div class="card-body">
+                                <h5 class="card-title">Condicionales</h5>
+                                <p class="card-text">Permiten tomar decisiones en el código usando estructuras como if/else.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card card-custom h-100">
+                            <img src="paisaje_2.jpg" class="card-img-top" alt="Bucles">
+                            <div class="card-body">
+                                <h5 class="card-title">Bucles</h5>
+                                <p class="card-text">Repiten acciones automáticamente con for o while loops.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card card-custom h-100">
+                            <img src="paisaje.jpg" class="card-img-top" alt="Funciones">
+                            <div class="card-body">
+                                <h5 class="card-title">Funciones</h5>
+                                <p class="card-text">Grupos de instrucciones reutilizables que simplifican el código.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="section-bg-alt">
+            <div class="container">
+                <h2 class="text-center mb-4 text-white">Recursos para Practicar</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card card-custom h-100">
+                            <img src="chica.jpg" class="card-img-top" alt="W3Schools">
+                            <div class="card-body">
+                                <h5 class="card-title">W3Schools</h5>
+                                <p class="card-text">Referencia completa para HTML, CSS y JS con ejemplos interactivos.</p>
+                                <a href="https://www.w3schools.com" target="_blank" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card card-custom h-100">
+                            <img src="Silksong.jpg" class="card-img-top" alt="Codecademy">
+                            <div class="card-body">
+                                <h5 class="card-title">Codecademy</h5>
+                                <p class="card-text">Plataforma interactiva para aprender programación paso a paso.</p>
+                                <a href="https://www.codecademy.com" target="_blank" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card card-custom h-100">
+                            <img src="fundamental papere ducation (1).jpg" class="card-img-top" alt="MDN">
+                            <div class="card-body">
+                                <h5 class="card-title">MDN Web Docs</h5>
+                                <p class="card-text">Documentación oficial de Mozilla para desarrolladores web.</p>
+                                <a href="https://developer.mozilla.org" target="_blank" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- Sección del Juego -->
+    <section class="py-5" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="text-white mb-4 display-5">¡Desafío Interactivo!</h2>
+                    <p class="text-white fs-5 mb-5">Completa el código HTML y demuestra tus habilidades. ¡Prueba tu conocimiento ahora!</p>
+                    <button class="btn btn-light btn-lg" id="btnJuego" style="padding: 15px 50px; font-size: 1.3rem; font-weight: bold; border-radius: 50px; box-shadow: 0 8px 16px rgba(0,0,0,0.3); transition: all 0.3s ease;">
+                        🎮 Juega Ahora
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal del Juego -->
+    <div class="modal fade" id="gameModal" tabindex="-1" aria-labelledby="gameModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="gameModalLabel">Desafío de Código HTML</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="gameContent"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" id="btnValidar">Validar Código</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de Errores -->
+    <div id="errorContainer" class="position-fixed bottom-0 end-0 p-3" style="z-index: 1050;"></div>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Tecno-Educa Produshon</h5>
+                    <p>Tu socio en el aprendizaje de programación.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>&copy; 2026 Tecno-Educa Production. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="juego.js"></script>
+</body>
+</html>
