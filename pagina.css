@@ -1,0 +1,86 @@
+/* Estilos para pagina.html */
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #eef2ff, #f2fff6);
+    color: #1a1a1a;
+}
+
+.site-header {
+    text-align: center;
+    padding: 2rem 1rem 1.5rem;
+    background: #2b6cb0;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tagline {
+    margin: 0.25rem 0 1rem;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 0.65rem 1.1rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+.nav-button:hover {
+    background: rgba(255, 255, 255, 0.45);
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto 3rem;
+    padding: 0 1rem;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem 1.25rem;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1.75rem;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #2b6cb0;
+}
+
+.card img {
+    display: block;
+    max-width: 100%;
+    margin: 1rem auto 0;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1.25rem 1rem;
+    background: #1a202c;
+    color: #cbd5e1;
+    font-size: 0.95rem;
+}
+
+a {
+    color: #2b6cb0;
+}
+
+a:hover {
+    text-decoration: underline;
+}

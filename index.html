@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechEdu Solutions - Aprende Programación</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tecno-Educa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cursos">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="btn btn-outline-light" href="/static/pagina.html">Más Información</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-white py-5" style="position: relative; background: url('fundamental-paper-education-iheqkq4km53a1f2j.jpg') center/cover no-repeat; min-height: 420px;">
+        <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.45);"></div>
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="display-4">Aprende Programación con Tecno-Educa</h1>
+                    <p class="lead">Descubre los fundamentos de la programación web y otros lenguajes con nuestros cursos interactivos y profesionales.</p>
+                    <a class="btn btn-light btn-lg" href="#cursos">Explorar Cursos</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="cursos">
+            <h2 class="text-center mb-4">Nuestros Cursos</h2>
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="html.jpg" class="img-fluid rounded-start" alt="HTML">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">HTML: Estructura de la Web</h5>
+                                    <p class="card-text">HTML es el lenguaje de marcado para crear la estructura de las páginas web. Aprende los elementos básicos como &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;.</p>
+                                    <a href="https://www.google.com/search?q=htmlestructura+web&oq=htmlestructura+web&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMgoIAhAAGAgYDRgeMgoIAxAAGAgYDRgeMgcIBBAAGO8FMgcIBRAAGO8FMgoIBhAAGIAEGKIEMgYIBxBFGEDSAQg1NDcxajBqN6gCCLACAfEFkLDNiJ3PCxPxBZCwzYidzwsT&sourceid=chrome&ie=UTF-8">Informacion externa</a>
+                                    <p class="card-text"><small class="text-body-secondary">Duración: 4 semanas</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="css.jpg" class="img-fluid rounded-start" alt="CSS">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">CSS: Estilos y Diseño</h5>
+                                    <p class="card-text">CSS se usa para dar estilo a las páginas web. Controla colores, fuentes, layouts y más.</p>
+                                    <a href="https://www.google.com/search?q=css+pagina+web&sca_esv=ee514d2810529d1b&biw=1366&bih=641&sxsrf=ANbL-n7rjZXxiAJyO-F4LHWYzHCx8NWZPA%3A1773920631783&ei=d-G7abHHL8jb1sQPjqKRyAE&oq=css++web&gs_lp=Egxnd3Mtd2l6LXNlcnAiCGNzcyAgd2ViKgIIATIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgUQABiABDIFEAAYgAQyBRAAGIAESIkiUM8FWL4KcAF4AZABAJgBeKABkgOqAQM0LjG4AQPIAQD4AQGYAgagAuIDwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAg4QABjkAhjWBBiwA9gBAcICGRAuGEMYxwEY0QMYgAQYigUYyAMYsAPYAQHCAhkQLhiABBiKBRhDGMcBGNEDGMgDGLAD2AEBwgIIEAAYCBgHGB7CAggQABgHGB4YCpgDAIgGAZAGEboGBggBEAEYCZIHAzUuMaAHwiKyBwM0LjG4B84DwgcFMi0zLjPIB0CACAE&sclient=gws-wiz-serp">Informacion externa</a>
+                                    <p class="card-text"><small class="text-body-secondary">Duración: 4 semanas</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="js.jpg" class="img-fluid rounded-start" alt="JavaScript">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">JavaScript: Interactividad</h5>
+                                    <p class="card-text">JavaScript añade dinamismo a las páginas. Aprende funciones, eventos y manipulación del DOM.</p>
+                                    <a href="https://www.google.com/search?q=js+pagina+web&sca_esv=ee514d2810529d1b&biw=1366&bih=641&sxsrf=ANbL-n5fy0WCC6cTP56KPF3c_W-tgyUuPg%3A1773920639954&ei=f-G7aa_yOcDc1sQP4bTxoAw&ved=0ahUKEwjvreqs8auTAxVArpUCHWFaHMQQ4dUDCBE&uact=5&oq=js+pagina+web&gs_lp=Egxnd3Mtd2l6LXNlcnAiDWpzIHBhZ2luYSB3ZWIyBhAAGAcYHjIGEAAYBxgeMggQABgIGAcYHjIGEAAYHhgKMggQABgFGAcYHjIIEAAYBRgHGB4yBhAAGAUYHjIIEAAYBRgHGB4yBhAAGAgYHjIGEAAYCBgeSMkwUKAGWJohcAF4AZABAJgBRaABpwKqAQE1uAEDyAEA-AEBmAIGoAL7AsICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgINEAAYgAQYigUYQxixA5gDAIgGAZAGCZIHATagB9sdsgcBNbgH8ALCBwUyLTEuNcgHRYAIAQ&sclient=gws-wiz-serp">Informacion externa</a>
+                                    <p class="card-text"><small class="text-body-secondary">Duración: 6 semanas</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images.jpg" class="img-fluid rounded-start" alt="Otros Lenguajes">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Otros Lenguajes de Programación</h5>
+                                    <p class="card-text">Explora lenguajes como Python, Java, C++. Cada uno tiene sus usos específicos.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Duración: 8 semanas</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Tecno-Educa</h5>
+                    <p>Tu socio en el aprendizaje de programación.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>&copy; 2026 Tecno-Educa. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
